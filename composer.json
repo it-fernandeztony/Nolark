@@ -1,0 +1,13 @@
+{
+    "name": "vendor/nolark",
+    "description": "Description of project Nolark.",
+    "authors": [
+        {
+            "name": "FT",
+            "email": "IT.Fernandeztony@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "v2.5.0"
+    }
+}

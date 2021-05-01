@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 août 2020, 13:24:54
+    Author     : Fernandez Tony
+*/
+
+.cookieContainer{
+    text-align: left;
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    padding: 0 10%;
+    background: #343a40;
+    padding: 0 32px 0 10px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px #343a40;   
+}
+.cookieContainer.active{
+    bottom: 80px;
+}
+.cookieContainer a{
+    color: white;
+}
+.cookieContainer p{
+    color:white;
+    float: left;
+    margin-top: 1%;
+}
+.cookieBtn{
+    float: right;
+    
+    margin-top: 1%;
+    font-weight:bold;
+    background: dodgerblue;
+    border: 0;
+    color: #343a40;
+    padding: 12px 48px;    
+    font-size: 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
